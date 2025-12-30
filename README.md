@@ -51,3 +51,12 @@
 <img width="1903" height="674" alt="image" src="https://github.com/user-attachments/assets/08e4ce6d-bb17-43c0-8fc7-bed93ee14e6b" />
 <img width="519" height="921" alt="image" src="https://github.com/user-attachments/assets/ac5ddbe7-465b-4688-b1f9-8753826f154f" />
 
+6.5 錯誤範例
+<img width="1555" height="539" alt="image" src="https://github.com/user-attachments/assets/f2e599d5-4231-4b36-8e94-055558ef46a2" />
+<img width="1760" height="837" alt="image" src="https://github.com/user-attachments/assets/9244e5e5-4f9a-4b56-a68c-5aafd9c21704" />
+
+6.6正確部署完成後 
+<img width="1309" height="230" alt="image" src="https://github.com/user-attachments/assets/f13ada28-4fcd-46f1-a187-0cc90d128711" />
+6.7請注意在上述 sg 還有firewall的放通 因最後可以兩邊起機器去戶ping
+
+
