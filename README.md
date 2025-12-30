@@ -1,6 +1,16 @@
-# AWS-Site-to-site-VPN-to-GCP-use-AWS-Transi-Gateway
-
-## 建立AWS /GCP VPC subnet routable igw 
+# AWS Site-to-Site VPN to GCP (Using AWS Transit Gateway)
+本文記錄 **AWS Site-to-Site VPN 透過 Transit Gateway 連接至 GCP HA VPN（BGP）** 的實作流程與注意事項。
+## 架構說明
+- AWS：
+  - VPC
+  - Transit Gateway (TGW)
+  - Customer Gateway (CGW)
+  - Site-to-Site VPN
+- GCP：
+  - VPC
+  - HA VPN
+  - Cloud Router (BGP)
+## 1. 建立 AWS / GCP VPC Subnet（可路由、可通 IGW）
 
 1.<img width="1725" height="647" alt="image" src="https://github.com/user-attachments/assets/de184969-0dc6-4be8-85df-506ecfeaf446" />
 <img width="1610" height="830" alt="image" src="https://github.com/user-attachments/assets/2fca63b3-2f25-42e4-8aea-340715f652e6" />
