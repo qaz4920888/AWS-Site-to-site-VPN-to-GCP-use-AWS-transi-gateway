@@ -158,8 +158,10 @@
 <img width="1309" height="230" alt="image" src="https://github.com/user-attachments/assets/f13ada28-4fcd-46f1-a187-0cc90d128711" />
 
 ---
+### 4.7 注意最後要到AWS 使用的子網路的路由表 去添加 目的地ip GCP 子網往段  否則路由通 還是會ping不到
+<img width="1901" height="753" alt="image" src="https://github.com/user-attachments/assets/b2125752-5068-4e52-9d01-6439cb658dec" />
 
-### 4.7 注意事項
+### 4.8注意事項
 
 - 請注意：
 - AWS Security Group
