@@ -1,4 +1,5 @@
-# AWS Site-to-Site VPN to GCP (Using AWS Transit Gateway)
+# AWS Transit Gateway–Based Multi-VPC Architecture with Site-to-Site VPN to GCP
+
 
 本文記錄 **AWS Site-to-Site VPN 透過 Transit Gateway 連接至 GCP HA VPN（BGP）** 的實作流程與注意事項。
 
@@ -171,3 +172,12 @@
 皆需放通  
 最後可在雙方啟動 VM，進行 `ping` 測試確認連線
 
+## 再次串AWS vpc to vpc
+1.再次建立 TGW  attachment
+<img width="1678" height="813" alt="image" src="https://github.com/user-attachments/assets/f6cbde53-c2fc-41e7-9dac-68c47d4e4613" />
+2. 在兩個VPC都需添加對端路由，至路油表添加兩邊的 目的地 >　走ＴＧＷ
+<img width="1918" height="813" alt="image" src="https://github.com/user-attachments/assets/c6024f47-662b-41cc-b86c-0bc294cbe3fc" />
+<img width="1921" height="821" alt="image" src="https://github.com/user-attachments/assets/02031d18-9f82-4fe4-bf26-2748c9e0fd86" />
+
+## 測試VPC 互ping以及 透過GCP Ping稍早新增的VPC 開機器 
+<img width="640" height="245" alt="image" src="https://github.com/user-attachments/assets/b5a03da4-5f91-4b06-beb6-10d78020aa22" />
